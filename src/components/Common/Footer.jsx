@@ -1,6 +1,6 @@
 import React from "react";
 import { FooterLink2 } from "../../data/footer-links";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 
 // Images
 import Logo from "../../assets/Logo/Logo-Full-Light.png";
