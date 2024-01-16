@@ -3,9 +3,9 @@ import "./App.css"
 // Redux
 import { useDispatch, useSelector } from "react-redux"
 // React Router
-import { Route, Routes, useNavigate } from "react-router-dom"
+import { Route, Routes, useNavigate } from "react-router-dom" 
 
-// Components
+// Components  
 import Navbar from "./components/Common/Navbar"
 import OpenRoute from "./components/core/Auth/OpenRoute"
 import PrivateRoute from "./components/core/Auth/PrivateRoute"
@@ -49,7 +49,7 @@ function App() {
   }, [])
 
   return (
-    <div className="flex min-h-screen w-screen flex-col bg-richblack-900 font-inter">
+    <div className="flex min-h-screen w-screen flex-col bg-pure-greys-600 font-inter">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

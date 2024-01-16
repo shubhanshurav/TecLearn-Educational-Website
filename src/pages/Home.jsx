@@ -2,8 +2,9 @@
 import { FaArrowRight } from "react-icons/fa"
 import { Link } from "react-router-dom"
 
-// Image and Video Import
-import Banner from "../assets/Images/banner.mp4"
+// Image and Video Import 
+// import Banner from "../assets/Images/banner.mp4"
+import Banner from "../assets/Images/banner.jpg"
 // Component Imports
 import Footer from "../components/Common/Footer"
 import ReviewSlider from "../components/Common/ReviewSlider"
@@ -17,7 +18,7 @@ import TimelineSection from "../components/core/HomePage/Timeline"
 
 function Home() {
   return (
-    <div>
+    <div> 
       {/* Section 1 */}
       <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 text-white">
         {/* Become a Instructor Button */}
@@ -56,14 +57,15 @@ function Home() {
 
         {/* Video */}
         <div className="mx-3 my-7 shadow-[10px_-5px_50px_-5px] shadow-blue-200">
-          <video
+          {/* <video
             className="shadow-[20px_20px_rgba(255,255,255)]"
             muted
             loop
             autoPlay
           >
             <source src={Banner} type="video/mp4" />
-          </video>
+          </video> */}
+          <img src={Banner} alt="banner"/>
         </div>
 
         {/* Code Section 1  */}

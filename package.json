@@ -1,6 +1,6 @@
 {
-  "name": "studynotion-client",
-  "description": "This is the client side of the StudyNotion App",
+  "name": "ed-tech-client",
+  "description": "This is the client side of the Ed-Tech App",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

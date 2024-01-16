@@ -1,14 +1,14 @@
 {
-	"name": "studynotion-backend",
+	"name": "ed-tech-backend",
 	"version": "1.0.0",
-	"description": "studynotion-backend",
+	"description": "Ed-Tech backend",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
-		"studynotion-backend"
+		"ed-tech-backend"
 	],
 	"author": "Shubhanshu Rao",
 	"license": "ISC",
