@@ -7,8 +7,8 @@ const TeamMembers = ({ name, role, image, github, linkedin }) => {
   return (
     <div className="object-cover p-4">
       <div className="flex flex-col md:flex-row bg-richblack-900 rounded-xl overflow-hidden shadow-xl">
-        <div className=''>
-          <img src={image} alt={name} className="w-full h-full object-cover items-center" style={{ width: '400px', height: '250px', maxHeight:'250px', minWidth:'250px' }} />
+        <div className='p-5'>
+          <img src={image} alt={name} className="w-full h-full rounded-lg object-cover items-center" style={{ width: '400px', height: '250px', maxHeight:'250px', minWidth:'250px' }} />
         </div>
         <div className='flex flex-col w-full items-center py-0 md:py-8 text-richblack-5'>
             <div className="text-center p-4">
