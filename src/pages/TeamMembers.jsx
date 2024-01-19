@@ -5,12 +5,12 @@ import Footer from '../components/Common/Footer';
 
 const TeamMembers = ({ name, role, image, github, linkedin }) => {
   return (
-    <div className="object-cover p-4">
+    <div className="object-cover p-4 m-auto">
       <div className="flex flex-col md:flex-row bg-richblack-900 rounded-xl overflow-hidden shadow-xl">
-        <div className='p-5'>
-          <img src={image} alt={name} className="w-full h-full rounded-lg object-cover items-center" style={{ width: '400px', height: '250px', maxHeight:'250px', minWidth:'250px' }} />
+        <div className='px-3 py-2 w-full m-auto'>
+          <img src={image} alt={name} className="w-full h-full object-fill md:object-contain items-center" style={{ width: '250px', height: '250px'}} />
         </div>
-        <div className='flex flex-col w-full items-center py-0 md:py-8 text-richblack-5'>
+        <div className='flex flex-col w-full items-center text-richblack-5 m-auto'>
             <div className="text-center p-4">
                 <h3 className="text-2xl font-semibold mb-2 bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text ">{name}</h3>
                 <p className="text-lg font-thin">{role}</p>
