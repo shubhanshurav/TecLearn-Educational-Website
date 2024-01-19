@@ -12,7 +12,7 @@ export default function ProfileDropdown() {
   const dispatch = useDispatch()
   const navigate = useNavigate()
   const [open, setOpen] = useState(false)
-  const ref = useRef(null)
+  const ref = useRef(null) 
 
   useOnClickOutside(ref, () => setOpen(false))
 
