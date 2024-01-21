@@ -31,7 +31,7 @@ app.use(
 	// 	credentials: true,
 	// })
 	cors({
-		origin: "*",
+		origin: "process.env.FRONTEND_URL",
 		credentials: true, 
 	})
 );
