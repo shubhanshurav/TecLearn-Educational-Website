@@ -30,11 +30,10 @@ app.use(
 	// 	origin: "http://localhost:3000",
 	// 	credentials: true,
 	// })
-	// cors({
-	// 	origin: "*",
-	// 	credentials: true,  
-	// })
-	cors()
+	cors({
+		origin: "*",
+		credentials: true, 
+	})
 );
 app.use(
 	fileUpload({
