@@ -29,6 +29,11 @@ function Navbar() {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const handleLinkClick = () => {
+    // Close the sidebar when a link is clicked
+    setMobileMenuOpen(false);
+  };
+
   useEffect(() => {
     ;(async () => {
       setLoading(true)
@@ -167,7 +172,7 @@ function Navbar() {
             <div className="flex flex-col items-start pl-12 -mt-8 text-white">
               <ul className="flex flex-col gap-y-6 text-richblack-25">
                 {NavbarLinks.map((link, index) => (
-                  <li key={index}>
+                  <li key={index} onClick={handleLinkClick}>
                     {link.title === "Catalog" ? (
                       <>
                         <div
@@ -227,7 +232,7 @@ function Navbar() {
                {/* Login / Signup / Dashboard */}
               <div className="items-start gap-4 mt-4 flex flex-col">
                 {user && user?.accountType !== ACCOUNT_TYPE.INSTRUCTOR && (
-                  <Link to="/dashboard/cart" className="relative">
+                  <Link to="/dashboard/cart" className="relative" onClick={handleLinkClick}>
                     <AiOutlineShoppingCart className="text-2xl text-richblack-100" />
                     {totalItems > 0 && (
                       <span className="absolute -bottom-2 -right-2 grid h-5 w-5 place-items-center overflow-hidden rounded-full bg-richblack-600 text-center text-xs font-bold text-yellow-100">
@@ -237,14 +242,14 @@ function Navbar() {
                   </Link>
                 )}
                 {token === null && (
-                  <Link to="/login">
+                  <Link to="/login" onClick={handleLinkClick}>
                     <button className="rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
                       Log in
                     </button>
                   </Link>
                 )}
                 {token === null && (
-                  <Link to="/signup">
+                  <Link to="/signup" onClick={handleLinkClick}>
                     <button className="rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
                       Sign up
                     </button>
