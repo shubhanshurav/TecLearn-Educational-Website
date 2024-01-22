@@ -128,7 +128,7 @@ function Navbar() {
           </ul>
         </nav>
         {/* Login / Signup / Dashboard */}
-        <div className="hidden items-center gap-x-4 md:flex">
+        <div className="items-center gap-x-4 flex flex-row">
           {user && user?.accountType !== ACCOUNT_TYPE.INSTRUCTOR && (
             <Link to="/dashboard/cart" className="relative">
               <AiOutlineShoppingCart className="text-2xl text-richblack-100" />
@@ -141,7 +141,7 @@ function Navbar() {
           )}
           {token === null && (
             <Link to="/login">
-              <button className="rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
+              <button className="rounded-[8px] mx-1 md:mx-0 border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
                 Log in
               </button>
             </Link>
@@ -183,7 +183,7 @@ function Navbar() {
                           }`}
                         >
                           <p>{link.title}</p>
-                          <BsChevronDown />
+                          <BsChevronDown/>
                           <div className="invisible absolute left-[50%] top-[50%] z-[1000] flex w-[200px] translate-x-[-50%] translate-y-[3em] flex-col rounded-lg bg-richblack-5 p-4 text-richblack-900 opacity-0 transition-all duration-150 group-hover:visible group-hover:translate-y-[1.65em] group-hover:opacity-100 lg:w-[300px]">
                             <div className="absolute left-[50%] top-0 -z-10 h-6 w-6 translate-x-[80%] translate-y-[-40%] rotate-45 select-none rounded bg-richblack-5"></div>
                             {loading ? (
@@ -229,34 +229,6 @@ function Navbar() {
                   </li>
                 ))}
               </ul>
-               {/* Login / Signup / Dashboard */}
-              <div className="items-start gap-4 mt-4 flex flex-col">
-                {user && user?.accountType !== ACCOUNT_TYPE.INSTRUCTOR && (
-                  <Link to="/dashboard/cart" className="relative" onClick={handleLinkClick}>
-                    <AiOutlineShoppingCart className="text-2xl text-richblack-100" />
-                    {totalItems > 0 && (
-                      <span className="absolute -bottom-2 -right-2 grid h-5 w-5 place-items-center overflow-hidden rounded-full bg-richblack-600 text-center text-xs font-bold text-yellow-100">
-                        {totalItems}
-                      </span>
-                    )}
-                  </Link>
-                )}
-                {token === null && (
-                  <Link to="/login" onClick={handleLinkClick}>
-                    <button className="rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
-                      Log in
-                    </button>
-                  </Link>
-                )}
-                {token === null && (
-                  <Link to="/signup" onClick={handleLinkClick}>
-                    <button className="rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
-                      Sign up
-                    </button>
-                  </Link>
-                )}
-                {token !== null && <ProfileDropdown />}
-              </div>
             </div>
           </div>
         )}
