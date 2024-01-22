@@ -93,7 +93,7 @@ function Home() {
               active: false,
             }}
             codeColor={"text-yellow-25"}
-            codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a> <a href="/three">Three</a>\n</nav>\n</body>`}
+            codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">Shubhanshu</a> <a href="/two">Saket</a> <a href="/three">Vivek</a>\n</nav>\n</body>`}
             backgroundGradient={<div className="codeblock1 absolute"></div>}
           />
         </div>
@@ -122,7 +122,7 @@ function Home() {
               active: false,
             }}
             codeColor={"text-white"}
-            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Home</div>\n)\n}\nexport default Home;`}
+            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Shubhanshu</div>\n<div>Saket</div>\n)}\n export default Home;`}
             backgroundGradient={<div className="codeblock2 absolute"></div>}
           />
         </div>
