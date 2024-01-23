@@ -44,7 +44,7 @@ Ed-Tech is a comprehensive education platform built to enhance the learning expe
 
 - **Saket Singh**
   - <img src="https://edtech-iet.vercel.app/teams/Saket.jpg" alt="John Doe" width="150" height="150" style="border-radius: 5%;">
-  - Role: MERN Designer
+  - Role: MERN Developer
   - GitHub: [@SAKETSINGH120](https://github.com/SAKETSINGH120)
   - LinkedIn: [Saket Singh](https://www.linkedin.com/in/saket-singh-810824240/)
 
