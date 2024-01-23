@@ -2,6 +2,9 @@
 
 TecLearn is a comprehensive education platform built to enhance the learning experience for both students and instructors. It leverages modern web technologies to provide a seamless and interactive learning environment.
 
+![image](https://github.com/shubhanshurav/TecLearn/assets/87806305/b69be771-860e-4ea7-b7ec-5cea977e1ac7)
+
+
 ## Features
 
 - **Interactive Learning:** Engage with high-quality educational content in a user-friendly environment.
