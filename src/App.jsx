@@ -50,7 +50,7 @@ function App() {
   }, [])
 
   return (
-    <div className="flex min-h-screen w-screen flex-col bg-pure-greys-600 font-inter">
+    <div className="flex min-h-screen w-screen flex-col bg-bluebg-300 font-inter">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

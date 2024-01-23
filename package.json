@@ -1,6 +1,6 @@
 {
-  "name": "ed-tech-client",
-  "description": "This is the client side of the Ed-Tech App",
+  "name": "teclearn-client",
+  "description": "This is the client side of the TecLearn App",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

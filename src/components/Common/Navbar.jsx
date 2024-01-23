@@ -63,7 +63,7 @@ function Navbar() {
         {/* Logo */}
         <Link to="/">
           {/* <img src={logo} alt="Logo" width={160} height={32} loading="lazy" /> */}
-          <h1 className="text-white font-bold text-2xl md:text-3xl border-2 border-yellow-200 p-1">Ed-<span className="text-yellow-200">Tech</span></h1>
+          <h1 className="text-white font-bold text-2xl md:text-2xl border-2 border-yellow-200 rounded-lg p-1">Tec<span className="text-yellow-100">Learn</span></h1>
         </Link>
         {/* Navigation links */}
         <nav className="hidden md:block">

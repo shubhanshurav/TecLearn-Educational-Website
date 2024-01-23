@@ -1,14 +1,14 @@
 {
-	"name": "ed-tech-backend",
+	"name": "teclearn-backend",
 	"version": "1.0.0",
-	"description": "Ed-Tech backend",
+	"description": "TecLearn backend",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
-		"ed-tech-backend"
+		"teclearn-backend"
 	],
 	"author": "Shubhanshu Rao",
 	"license": "ISC",

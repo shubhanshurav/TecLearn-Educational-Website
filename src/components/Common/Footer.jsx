@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="lg:w-[50%] flex flex-wrap flex-row justify-between lg:border-r lg:border-richblack-700 pl-3 lg:pr-5 gap-3">
             <div className="w-[30%] flex flex-col gap-3 lg:w-[30%] mb-7 lg:pl-0">
               {/* <img src={Logo} alt="" className="object-contain" /> */}
-              <h1 className="text-white font-bold text-xl md:text-3xl border-2 border-yellow-200 p-1">Ed-<span className="text-yellow-200">Tech</span></h1>
+              <h1 className="text-white font-bold text-xl md:text-3xl border-2 border-yellow-200 rounded-lg p-1">Tec<span className="text-yellow-200">Learn</span></h1>
               <h1 className="text-richblack-50 font-semibold text-[16px]">
                 Company
               </h1>
@@ -173,7 +173,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">Made with ❤️ Ed-Tech © 2023</div>
+          <div className="text-center">Made with ❤️ TecLearn © 2023</div>
         </div>
       </div>
     </div>

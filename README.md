@@ -1,6 +1,6 @@
-# Ed-Tech
+# TecLearn
 
-Ed-Tech is a comprehensive education platform built to enhance the learning experience for both students and instructors. It leverages modern web technologies to provide a seamless and interactive learning environment.
+TecLearn is a comprehensive education platform built to enhance the learning experience for both students and instructors. It leverages modern web technologies to provide a seamless and interactive learning environment.
 
 ## Features
 
@@ -21,7 +21,7 @@ Ed-Tech is a comprehensive education platform built to enhance the learning expe
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/edulearn.git`
+1. Clone the repository: `git clone https://github.com/your-username/TecLearn.git`
 2. Install dependencies: `npm install`
 3. Set up environment variables.
 4. Run the development server: `npm run dev`
