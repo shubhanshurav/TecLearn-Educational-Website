@@ -13,19 +13,19 @@ export const TeamMembersData = [
       github: "https://github.com/SAKETSINGH120",
       linkedin: "https://www.linkedin.com/in/saket-singh-810824240/",
     },
-    {
-      name: "Vivek Kumar",
-      role: "MERN Developer",
-      image: "/teams/Vivek.jpg",
-      github: "url",
-      linkedin: "url",
-    },
-    {
-      name: "Nitish Kumar Maurya",
-      role: "MERN Developer",
-      image: "/teams/Nitish.jpg",
-      github: "url",
-      linkedin: "url",
-    },
+    // {
+    //   name: "Vivek Kumar",
+    //   role: "MERN Developer",
+    //   image: "/teams/Vivek.jpg",
+    //   github: "url",
+    //   linkedin: "url",
+    // },
+    // {
+    //   name: "Nitish Kumar Maurya",
+    //   role: "MERN Developer",
+    //   image: "/teams/Nitish.jpg",
+    //   github: "url",
+    //   linkedin: "url",
+    // },
   ];
   

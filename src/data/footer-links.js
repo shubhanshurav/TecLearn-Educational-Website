@@ -4,18 +4,18 @@ export const FooterLink2 = [
     links: [
       { title: "Al", link: "/al" },
       { title: "Cloud Computing", link: "/cloud-computing" },
-      { title: "Code Foundations", link: "/code-foundations" },
-      { title: "Computer Science", link: "/computer-science" },
       { title: "Cybersecurity", link: "/cybersecurity" },
       { title: "Data Analytics", link: "/data-analytics" },
       { title: "Data Science", link: "/data-science" },
       { title: "Data Visualization", link: "/data-visualization" },
-      { title: "Developer Tools", link: "/developer-tools" },
       { title: "DevOps", link: "/devops" },
       { title: "Game Development", link: "/game-development" },
-      { title: "IT", link: "/it" },
+      // { title: "Computer Science", link: "/computer-science" },
+      // { title: "Code Foundations", link: "/code-foundations" },
+      // { title: "Developer Tools", link: "/developer-tools" },
+      // { title: "IT", link: "/it" },
+      // { title: "Math", link: "/math" },
       { title: "Machine Learning", link: "/machine-learning" },
-      { title: "Math", link: "/math" },
       { title: "Mobile Development", link: "/mobile-development" },
       { title: "Web Design", link: "/web-design" },
       { title: "Web Development", link: "/web-development" },
@@ -24,7 +24,7 @@ export const FooterLink2 = [
   {
     title: "Languages",
     links: [
-      { title: "Bash", link: "/bash" },
+      // { title: "Bash", link: "/bash" },
       { title: "C++", link: "/c++" },
       { title: "C#", link: "/csharp" },
       { title: "Go", link: "/go" },
@@ -37,7 +37,7 @@ export const FooterLink2 = [
       { title: "R", link: "/r" },
       { title: "Ruby", link: "/ruby" },
       { title: "SQL", link: "/sql" },
-      { title: "Swift", link: "/swift" },
+      // { title: "Swift", link: "/swift" },
     ],
   },
   {
@@ -47,7 +47,7 @@ export const FooterLink2 = [
         {title: "Career services", link: "/career-services"},
         {title: "Interview prep", link: "/interview-prep"},
         {title: "Professional certification", link: "/professional-certification"},
-        {title: "-", link: "/hi"},
+        // {title: "-", link: "/hi"},
         {title: "Full Catalog", link: "/full-catalog"},
         {title: "Beta Content", link: "/beta-content"}
     ]
