@@ -2,7 +2,7 @@ export const TeamMembersData = [
     {
       name: "Shubhanshu Rao",
       role: "MERN Developer",
-      image: "/teams/Shubhanshu.jpg",
+      image: "/teams/Shubhanshu.jpeg",
       github: "https://github.com/shubhanshurav",
       linkedin: "https://www.linkedin.com/in/shubhanshu-rao-052320208/",
     },
