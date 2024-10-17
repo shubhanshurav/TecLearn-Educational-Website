@@ -7,7 +7,7 @@ exports.resetPasswordToken = async (req, res) => {
     const email = req.body.email
     const user = await User.findOne({ email: email })
     if (!user) {
-      return res.json({
+      return res.json({ 
         success: false,
         message: `This Email: ${email} is not Registered With Us Enter a Valid Email `,
       })
@@ -25,7 +25,7 @@ exports.resetPasswordToken = async (req, res) => {
     console.log("DETAILS", updatedDetails)
 
     // const url = `http://localhost:3000/update-password/${token}`
-    const url = `https://edtech-iet.vercel.app//update-password/${token}`
+    const url = `https://edtech-iet.vercel.app/update-password/${token}`
 
     await mailSender(
       email,
